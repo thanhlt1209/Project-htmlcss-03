@@ -713,7 +713,7 @@ a {
 }
 
 .footer__subscribe {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.86;
 }
 
@@ -740,18 +740,14 @@ a {
     margin-top: 0;
 }
 
-.footer__subscribe {
-    width: 273px;
-}
-
 .social {
     display: flex;
     column-gap: 10px;
 }
 
 .social__icon {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     background: #fff;
     color: #2e80ce;
     border-radius: 50%;
@@ -771,15 +767,20 @@ a {
 }
 
 .footer__email {
-    color: #9ca8b1;
+    color: #fff;
     font-family: "Open Sans";
-    font-size: 1.4rem;
     min-width: 212px;
-    line-height: 1.86;
     padding: 9px;
     background: #10375c;
     border: 1px solid #406181;
+    outline: none;
     border-radius: 4px;
+}
+
+.footer__email::placeholder {
+    color: #9ca8b1;
+    font-size: 1.4rem;
+    line-height: 1.86;
 }
 
 .footer__cta-btn {

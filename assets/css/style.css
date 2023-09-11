@@ -691,8 +691,9 @@ a {
 }
 
 .footer__row {
-    display: flex;
-    column-gap: 78px;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 77px;
     border-bottom: 1px solid #406181;
     padding-bottom: 18px;
 }
